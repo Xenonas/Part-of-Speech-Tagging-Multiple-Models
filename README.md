@@ -19,3 +19,7 @@ The models used are:
 By executing the files <b>main.py</b>, <b>hmm.py</b> and <b>crf.py</b> you can find the accuracy on english and greek on the Universal Dependencies EWT and GDT datasets.
 
 You can also see statistics and a simple analysis of the corpus used, by executing <b>corpus_analysis.py</b> . 
+
+Possible changes to flick accuracy:
+- add word embeddings to a neural network by adding embeddings = [word_embeddings],  on the embedding layer
+- use lemmatized words by changing the read
