@@ -22,4 +22,5 @@ You can also see statistics and a simple analysis of the corpus used, by executi
 
 Possible changes to flick accuracy:
 - add word embeddings to a neural network by adding embeddings = [word_embeddings],  on the embedding layer
-- use lemmatized words by changing the read
+- use lemmatized words by changing the basic_func.py line 32 from ..sent[1].. -> ..sent[2]..
+- change epochs used by each network model
