@@ -16,7 +16,7 @@ The models used are:
   - HMM
   - n-grams
   
-By executing the files <b>main.py</b>, <b>hmm.py</b> and <b>crf.py</b> you can find the accuracy on english and greek on the Universal Dependencies EWT and GDT datasets.
+By executing the files <b>main.py</b>, <b>hmm.py</b> and <b>crf.py</b> you can find the accuracy on english and greek on the Universal Dependencies EWT and GDT datasets (https://universaldependencies.org/).
 
 You can also see statistics and a simple analysis of the corpus used, by executing <b>corpus_analysis.py</b> . 
 
