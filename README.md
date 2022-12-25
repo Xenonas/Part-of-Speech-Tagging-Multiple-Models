@@ -24,3 +24,7 @@ Possible changes to flick accuracy:
 - add word embeddings to a neural network by adding embeddings = [word_embeddings],  on the embedding layer
 - use lemmatized words by changing the basic_func.py line 32 from ..sent[1].. -> ..sent[2]..
 - change epochs used by each network model
+
+Note: Bi-LSTM with CRF does not achieve the theoretical high accuracy it should and is significally slower.
+
+Bi-LSTM is the highest achieving model, reaching <b>98.7324%</b> accurcy in english and <b>97.6958%</b> in greek. If we use a lemmatizer, then the accuracy in english is <b>98.7883%</b> and in greek <b>98.2845%</b>.
