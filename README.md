@@ -10,14 +10,14 @@ In order to run the code you need <b>Python version 8.8.9</b> or newer and insta
 You'll also need to install the greek package from space in order to use the greek word vectoriser. In order to do that on the terminal write:
 > python -m spacy download el_core_news_sm
 
-The models used are: 
+The models used are:
+  - n-grams
+  - HMM
+  - CRF
   - RNN
   - LSTM
   - Bi-LSTM
   - Bi-LSTM with CRF layer
-  - CRF
-  - HMM
-  - n-grams
   
 By executing the files <b>main.py</b>, <b>hmm.py</b> and <b>crf.py</b> you can find the accuracy on english and greek on the Universal Dependencies EWT and GDT datasets (https://universaldependencies.org/).
 
