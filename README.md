@@ -3,7 +3,7 @@ This repository holds the code for my thesis on "Active Learning and Part of Spe
 
 This is the first of two parts of code, and explores different models used as Part of Speech Taggers. The second part can be found on https://github.com/Xenonas/Active-Learning-for-Part-of-Speech-Tagging/
 
-After downloading the files, you need to also download word2vec pretrained model for english from https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?resourcekey=0-wjGZdNAUop6WykTtMip30g if you wish toy use word embeddings.
+After downloading the files, you need to also download word2vec pretrained model for english from https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?resourcekey=0-wjGZdNAUop6WykTtMip30g if you wish to use word embeddings.
 
 In order to run the code you need <b>Python version 8.8.9</b> or newer and installing the requirements listed on <b>requirements.txt</b>.
 
